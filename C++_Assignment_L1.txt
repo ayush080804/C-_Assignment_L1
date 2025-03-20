@@ -1,0 +1,59 @@
+Q1: How can you output “Physics” and “Wallah” in two different lines in C++?
+
+ans. 
+#include<iostream>
+using namespace std;
+int main() {
+    cout << "Physics" << endl;
+    cout << "Wallah";
+    return 0;
+}
+
+Q2: Print 10 using 2 positive numbers less than 6 in C++ as output.
+
+ans.
+#include<iostream>
+using namespace std;
+int main() {
+    cout << 5 + 5;
+    return 0;
+}
+
+Q3: How much space does the following data types take?
+
+ans.
+1. int - Usually 4 bytes
+2. bool - Usually 1 byte
+3. float - Usually 4 bytes (Depends on the system architecture)
+
+Q4: What is the output of this program?
+void main(){
+int a=4;
+int b=5;
+a<+;b<-;
+cout<<<+a<<\" \"<<b--;
+}
+
+ans.
+This program contains syntax errors. After corrections, it may print something like '+4 5', depending on the intended logic.
+
+Q5: WAP to find the circumference of a circle with radius 10 in C++.
+
+ans.
+#include<iostream>
+using namespace std;
+int main(){
+   float radius = 10.0;
+   float circumference = 2 * 3.14159 * radius;
+   cout << "Circumference: " << circumference;
+   return 0;
+}
+
+ Q6: How many of these can be a variable name?
+
+ans.
+1. 01PWskills - Invalid (Cannot start with a digit)
+2. _FLOAT - Valid
+3. int - Invalid (Reserved keyword)
+4. FLOAT - Valid\n5. You will succeed - Invalid (Contains spaces)
+
